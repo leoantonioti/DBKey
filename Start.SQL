@@ -119,4 +119,16 @@ values (valores);
 Exemplo: 
 
 insert into departamento (nome)
-values ('computação'); 
+values ('computação'); */ 
+
+/* Para visualizar uma tabela, use select * from <tabela> 
+Exemplo:  
+
+select * from departamento; */ 
+
+-- testando 
+
+
+
+
+
