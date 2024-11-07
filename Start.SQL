@@ -128,6 +128,27 @@ select * from departamento; */
 
 -- testando 
 
+/* insert into professor (numcadastro,nome,coddepto)
+values (1,'Juliana Costa Silva',2);
+
+insert into professor (numcadastro,nome,coddepto)
+values (2,'Rodrigo Garro',3);
+
+insert into professor (numcadastro,nome,coddepto)
+values (3,'Thiago Ahran Detoni',1); 
+
+insert into professor (numcadastro,nome,coddepto)
+values (4,'Aline dos Santos',4);
+
+insert into professor (numcadastro,nome,coddepto)
+values (5,'Memphis Depay',5); */ 
+
+-- select * from professor
+
+-- select * from departamento
+
+insert into disciplina (nome,ementa,coddepto,codprofessor, numcreditos)
+values ('SQL', 'Sistema de Banco de Dados', 1, 3, 100);
 
 
 
