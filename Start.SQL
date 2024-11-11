@@ -150,6 +150,10 @@ values (5,'Memphis Depay',5); */
 insert into disciplina (nome,ementa,coddepto,codprofessor, numcreditos)
 values ('SQL', 'Sistema de Banco de Dados', 1, 3, 100);
 
+select p.nome, d.nome
+from professor p
+left join departamento d
+on (p.coddepto = d.codigo)
 
 
 
