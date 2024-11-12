@@ -155,5 +155,10 @@ from professor p
 left join departamento d
 on (p.coddepto = d.codigo)
 
+/* Faça uma consulta e verifique quantos alunos de graduação
+	existem no banco de dados */ 
+
+-- select * from alunograduacao
+
 
 
