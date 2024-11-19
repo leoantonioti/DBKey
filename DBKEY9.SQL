@@ -16,3 +16,14 @@ select d.nome as "Nome da Disciplina" , avg(c.media) as "Média"
 from cursa c 
 join disciplina d on (c.coddisciplina = d.codigo)
 group by d.nome, c.coddisciplina ; 
+
+Selecionar apenas as disciplinas que tiveram média geral menor ou igual a 8
+
+select d.nome, avg (c.media)
+from cursa c 
+join disciplina d on (c.coddisciplina = d.codigo)
+group by d.nome, c.coddisciplina 
+having avg (c.media) <= 8; 
+
+Selecionar os alunos que estão matriculados na disciplina programação I e Introdução a administração 
+
